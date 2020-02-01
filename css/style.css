@@ -234,8 +234,30 @@ ul li {
 #endNote {
 	text-align: center;
 	font-style: italic;
-
 }
+
+.myBtn {
+ 	background-color: #339235;
+  	border-radius: 12px;
+ 	width: 100px;
+  	padding: 8px ;
+  	color: white;
+ 	text-align: center;
+  	cursor: pointer;
+  	text-decoration: none;
+  	outline: none;
+  	box-shadow: 1px 2px 3px 2px #999;
+}
+
+.myBtn:hover {background-color: #3e8e41}
+
+.myBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 1px 2px 3px 2px #666;
+  transform: translateY(4px);
+}	
+
+
 
 
 /* Here goese the footer */

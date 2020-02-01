@@ -2,35 +2,43 @@
 	team  = `[{
 		"name": "Andy Sparkle",
        	"email":"Sparkling@gmail.com",
-		"image": "Sparkle.jpg"
+		"image": "Sparkle.jpg",
+		"bio": "Pop culture junkie. Subtly charming beer geek. Problem solver & communicator."
 	},{
       	"name": "Elaina Grey",
       	"email":"GreyElaina@gmail.com",
-		"image": "Grey.jpg"
+		"image": "Grey.jpg",
+		"bio": "Classical studies degree. Wanted more in her life, but stucks in this job. "
 	},{
        "name": "Roy Thomas",
        "email":"RThomas82@gmail.com",
-		"image": "Thomas.jpg"
+		"image": "Thomas.jpg",
+		"bio": "Two daughters, three wifes. Not in the same span of time, of course."
 	},{
       	"name": "Sarah Connor",
       	"email":"T1000@skynet.com",
-		"image": "Connor.jpg"
+		"image": "Connor.jpg",
+		"bio": "Jokes about my name and connessions with a certain sci-fii movie are not funny"
 	},{
       	"name": "Carl Octavius Percival",
       	"email":"COP@gmail.com",
-		"image": "Percival.jpg"
+		"image": "Percival.jpg",
+		"bio": "I have the name of an ancient knight and i am proud of it."
 	},{
       	"name": "Dr.Liu Chang",
       	"email":"DrChang@gmail.com",
-		"image": "Liu.jpg"
+		"image": "Liu.jpg",
+		"bio": "Born in Oxford, England on January 8, 1942. Highly educated family (both of my parents had attended Oxford University). "
 	},{
       	"name": "Grace Ho",
       	"email":"SantaBaby@gmail.com",
-		"image": "Ho.jpg"
+		"image": "Ho.jpg",
+		"bio": "Nothing to say"
 	},{
       	"name": "Belinda Bonham",
       	"email":"BeBaAlba@libero.it",
-		"image": "Beba.jpg"
+		"image": "Beba.jpg",
+		"bio": "Too much to say"
 	}]`;
 
 

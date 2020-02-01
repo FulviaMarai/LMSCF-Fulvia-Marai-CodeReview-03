@@ -67,6 +67,7 @@
 	
 	</footer>
 
+
 	<!-- Here goes the java script link -->
 
 	<script src="js/team.json" type="text/javascript"></script>
@@ -76,6 +77,10 @@
 		var team = JSON.parse(team);
 
 let generatedList = '';
+let moreInfo = '';
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
 
 		for (let i in team) {
 			generatedList += `
@@ -84,13 +89,16 @@ let generatedList = '';
 				<ul>
 					<li="name"><b>${team[i].name}</b></li>
 					<li>E-mail:<em>${team[i].email}</em></li>
+					<li><button id="myBtn">See more</button></li> 
 				</ul>
-			</div>
+			</div>	
 			`;
 		}
 		
 		document.getElementById('gallery').innerHTML = generatedList;
 
+
+		
 
 /*
 			for (var i = 0; i < team.length; i++) {
