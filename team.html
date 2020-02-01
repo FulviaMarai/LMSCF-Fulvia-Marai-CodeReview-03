@@ -75,12 +75,9 @@
 	<script>
 		
 		var team = JSON.parse(team);
-
+		
 let generatedList = '';
-let moreInfo = '';
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("myBtn");
-var span = document.getElementsByClassName("close")[0];
+
 
 		for (let i in team) {
 			generatedList += `
@@ -89,7 +86,8 @@ var span = document.getElementsByClassName("close")[0];
 				<ul>
 					<li="name"><b>${team[i].name}</b></li>
 					<li>E-mail:<em>${team[i].email}</em></li>
-					<li><button id="myBtn">See more</button></li> 
+					<li><div class="popup" onclick="showBio()"> See More
+  					<span class="popuptext" id="myPopup">${team[i].bio} </span></li> 
 				</ul>
 			</div>	
 			`;
@@ -98,6 +96,11 @@ var span = document.getElementsByClassName("close")[0];
 		document.getElementById('gallery').innerHTML = generatedList;
 
 
+
+	function showBio() {
+ 	 var popup = document.getElementById("myPopup");
+ 	 popup.classList.toggle("show");
+	}
 		
 
 /*

@@ -236,26 +236,41 @@ ul li {
 	font-style: italic;
 }
 
-.myBtn {
- 	background-color: #339235;
-  	border-radius: 12px;
- 	width: 100px;
-  	padding: 8px ;
-  	color: white;
- 	text-align: center;
-  	cursor: pointer;
-  	text-decoration: none;
-  	outline: none;
-  	box-shadow: 1px 2px 3px 2px #999;
+
+.popup {
+  position: relative;
+  display: block;
+  cursor: pointer;
 }
 
-.myBtn:hover {background-color: #3e8e41}
-
-.myBtn:active {
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
   background-color: #3e8e41;
-  box-shadow: 1px 2px 3px 2px #666;
-  transform: translateY(4px);
-}	
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
 
 
 
