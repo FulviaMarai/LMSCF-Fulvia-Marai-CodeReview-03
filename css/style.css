@@ -1,0 +1,287 @@
+img {
+	width: 100%;
+}
+
+body {
+   font-family: 'Open Sans Condensed', sans-serif;
+   margin: 0 5% 0 5%;
+}
+
+header {
+	margin: 0;
+}
+
+#title {
+	background-color: #FFF3F3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding:2%;
+}
+
+#headerNav ul{
+	background-color: #8E1616;
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 2%;
+	overflow: hidden;
+}
+
+#headerNav li {
+	display: inline;
+}
+
+#headerNav li a {
+	color:#FFF3F3;
+	font-weight: bold;
+	font-size:20px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#headerNav li a:hover:not(.active) {
+  color: green;
+}
+
+
+/* Here goes the main page  */
+main {
+	margin: 0 auto;
+}
+
+
+#bigBox {
+	background-color: #CECECE;
+	background-image: url("../img/traffic-332857_1920.jpg");
+  	background-position: center top;
+  	background-size: 100% 70%;
+  	background-repeat: no-repeat;
+  	margin: 0;
+  	padding-left: 2%;
+  	padding-right: 2%;
+  	border-top: 1px solid #8E1616;
+  	display: flex;
+  	flex-direction: column;
+  }
+
+#printedWhite  {
+	color: #CECECE;
+	font-size: 300%;
+}
+
+#hor2{
+ background: rgba(255,243,243,0.7);
+ width: 80%;
+ align-self: center;
+ padding-left: 5%;
+ padding-right: 5%;
+ border: 2px solid grey;
+ border-radius: 1px;
+
+}
+
+#hor2 h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 300% ;
+}
+
+#form {
+	font-weight: bold; 
+	font-size: x-large;
+	justify-content: center;
+}
+
+.questions {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+}
+
+input {
+
+	width: 270px;
+	height: 35px;
+	font-size: x-large;
+	border: 1px solid grey;
+	padding: 1px;
+}
+
+select {
+	width: 280px;
+	height: 40px;
+	font-size: x-large;
+	border: 1px solid grey;
+	padding: 1px;
+}
+
+#buttonSpace {
+		text-align: center;
+	 	padding: 3%;
+}
+ #buttonStart {
+ 	background-color: #339235;
+  	border-radius: 12px;
+ 	width: 220px;
+  	padding: 8px ;
+  	color: white;
+ 	text-align: center;
+  	font-size: 200%;
+  	cursor: pointer;
+  	text-decoration: none;
+  	outline: none;
+  	box-shadow: 1px 2px 3px 2px #999;
+}
+
+#buttonStart:hover {background-color: #3e8e41}
+
+#buttonStart:active {
+  background-color: #3e8e41;
+  box-shadow: 1px 2px 3px 2px #666;
+  transform: translateY(4px);
+}
+
+#bar3 {
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 8%;
+}
+
+#printedGreen {
+	color: #339235;
+	margin-block-start: 0;
+	margin-block-end: 1em;
+}
+
+#hor3 {
+	text-align: center;
+	font-size: 150% ;
+	display: flex;
+  	flex-direction: column;
+}
+
+#hor3 h1 {
+	margin-block-start: 0;
+	margin-block-end: 0.1em;
+}
+
+#hor3 h3 {
+	margin-block-start: 0;
+	margin-block-end: 1em;
+}
+
+/* here finish the "hero-image" and goes the section below */
+
+#whiteBox {
+	padding: 3%; 
+	display: flex;
+	justify-content: space-around;
+	align-self: center;
+}
+
+.box {
+	width: 320px;
+	border-top: 1px solid black;
+	box-shadow: 1px 2px 3px 2px #CECECE;
+	padding: 12px ;
+	color: black;
+	font-size: 120%;
+}
+
+
+.box h1 {
+	margin-block-start: 0.5em;
+	margin-block-end: 0.1em;
+}
+
+.box p {
+	margin-block-start: 0;
+	margin-block-end: 0.1em;
+}
+
+.box ul li:before {
+	content:'\2714';
+  	display:inline-block;
+  	color:#8FD3D5;
+  	padding:0 6px 0 0;
+  }
+
+ul li {
+	list-style-type:none;
+	font-size:1em;
+}
+
+/* here goese the gallery in the team page */
+
+#gallery {
+	display: flex;
+	justify-content:space-evenly;
+	flex-wrap: wrap;
+}
+.gallery {
+	display: flex;
+	width: 300px;
+	padding: 2%;
+}
+
+
+.gallery img {
+	width: 100px;
+}
+
+#endNote {
+	text-align: center;
+	font-style: italic;
+
+}
+
+
+/* Here goese the footer */
+
+footer {
+	background-color: black;
+	color: #FFF3F3;
+	text-align: center;
+	margin: 0;
+}
+
+#footerNav {
+	display: inline;
+}
+
+#footerNav ul{
+	background-color: black;
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 2%;
+	overflow: hidden;
+}
+
+#footerNav li {
+	float: left;
+}
+
+#footerNav li a {
+	color:#FFF3F3;
+	font-size:18px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#footerNav li a:hover:not(.active) {
+  color: #8E1616;
+}
+
+#bottomLogo {
+	overflow: auto;
+}
+
+#bottomLogo img {
+	width: 20%;
+	float: right;
+	padding: 2%;
+	
+}

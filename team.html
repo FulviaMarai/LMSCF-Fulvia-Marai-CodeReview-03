@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CodeReview 03</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- /here goes the header -->
+
+	<header>
+		<div id="title">
+			<div class="logo">
+				<img src="img/logo.png" alt="logo">
+			</div>
+			<div id="banner" class="banner">
+				<a href="https://www.codefactory.wien"> 
+				<img src="img/banner.png" alt="banner"></a>
+			</div>
+		</div>
+		<nav id="headerNav">
+			<ul>
+				<li><a href="home.html" title="index">Home </a></li>
+				<li><a href="team.html" title="team">Team</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<!-- /here goes the main page-->
+
+	<main>
+		<div id="bigBox">
+			<div id="hor1">
+				<h1 id="printedWhite"> Our Team</h1>
+			</div>
+			<div id="hor2">
+				<div id="bar1">
+					<h1 id="printedBlack">Great Coverage begins <br> with a great team</h1>
+				</div>
+
+				<div id="gallery"></div>
+
+				<div id="endNote"> <br>Images provided by the cool site: "This person does not exist". Learn more about this awersome project <a href="https://www.thispersondoesnotexist.com/">here.</a> </div>
+		</div>
+	</main>
+
+<!-- /here goes the footer -->
+
+	<footer>
+		<nav id="footerNav">
+			<ul>
+				<li><a href="home.html" title="index">Home </a></li>
+				<li><a href="team.html" title="team">Team</a></li>
+			</ul>
+		</nav>
+		<div id="bottomLogo">
+			<img src="img/logo-inv.png" alt="logo">
+		</div>
+		<div id="footerEnd">
+			<p> Fulvia Marai - CodeFactory 2020</p>
+		</div>
+	
+	</footer>
+
+	<!-- Here goes the java script link -->
+
+	<script src="js/team.json" type="text/javascript"></script>
+
+	<script>
+		
+		var team = JSON.parse(team);
+
+let generatedList = '';
+
+		for (let i in team) {
+			generatedList += `
+			<div class="gallery">
+				<img src="img/${team[i].image}" alt="driverlicense pic">
+				<ul>
+					<li="name"><b>${team[i].name}</b></li>
+					<li>E-mail:<em>${team[i].email}</em></li>
+				</ul>
+			</div>
+			`;
+		}
+		
+		document.getElementById('gallery').innerHTML = generatedList;
+
+
+/*
+			for (var i = 0; i < team.length; i++) {
+			
+			var content = document.writeln("<div class=\"gallery\"><img src=\"img/"+ team[i].image +"\"> <ul><li class=\"name\">"+ team[i].name + "</li> <li>" + team[i].email + "</li> </ul></div>");
+		}	
+
+		document.getElementById("gallery").innerHTML=(content);*/
+
+/* */
+
+	</script>
+
+</body>
+</html>

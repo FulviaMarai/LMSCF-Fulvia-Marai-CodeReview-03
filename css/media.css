@@ -1,0 +1,124 @@
+
+/* here will be media query for cellular phones */
+
+@media screen and (min-width: 340px) and (max-width: 480px) {
+
+	/* here starts the header for mini screen*/
+
+#headerNav {
+  text-align: center;
+}
+
+	/* here starts main page for mini screen */
+
+ #hor1 h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200% ;
+} 
+
+#hor2 h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 100% ;
+}
+
+ .questions {
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+input {
+
+  width: 100%;
+  height: 35px;
+  border: 1px solid grey;
+  padding: 1px;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid grey;
+  padding: 1px;
+}
+
+#hor3 {
+  text-align: center;
+  font-size: 90% ;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+#whiteBox {
+  padding: 3%; 
+  display: inline;
+}
+
+
+/* here there is the footer for mini screen */
+
+
+#footerNav {
+  text-align: right;
+}
+
+#footerNav ul {
+  display: inline;
+}
+
+#bottomLogo {
+  overflow: visible;
+}
+  
+#bottomLogo img {
+  width: 90%;
+  float: left;
+  padding: 5%;
+}
+
+}
+
+/* Here will be media query for tablets */
+
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  
+ #hor1 h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200% ;
+} 
+
+#hor2 h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 100% ;
+}
+
+ .questions {
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+input {
+
+  width: 100%;
+  height: 35px;
+  border: 1px solid grey;
+  padding: 1px;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid grey;
+  padding: 1px;
+}
+
+
+}
+
+
+

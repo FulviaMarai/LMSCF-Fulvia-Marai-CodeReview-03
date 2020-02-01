@@ -1,0 +1,36 @@
+
+	team  = `[{
+		"name": "Andy Sparkle",
+       	"email":"Sparkling@gmail.com",
+		"image": "Sparkle.jpg"
+	},{
+      	"name": "Elaina Grey",
+      	"email":"GreyElaina@gmail.com",
+		"image": "Grey.jpg"
+	},{
+       "name": "Roy Thomas",
+       "email":"RThomas82@gmail.com",
+		"image": "Thomas.jpg"
+	},{
+      	"name": "Sarah Connor",
+      	"email":"T1000@skynet.com",
+		"image": "Connor.jpg"
+	},{
+      	"name": "Carl Octavius Percival",
+      	"email":"COP@gmail.com",
+		"image": "Percival.jpg"
+	},{
+      	"name": "Dr.Liu Chang",
+      	"email":"DrChang@gmail.com",
+		"image": "Liu.jpg"
+	},{
+      	"name": "Grace Ho",
+      	"email":"SantaBaby@gmail.com",
+		"image": "Ho.jpg"
+	},{
+      	"name": "Belinda Bonham",
+      	"email":"BeBaAlba@libero.it",
+		"image": "Beba.jpg"
+	}]`;
+
+
